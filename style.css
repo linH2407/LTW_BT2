@@ -1,0 +1,16 @@
+.bg-image{
+    background: url(./images/4429_6.jpg) no-repeat center/cover;
+    height: 80vh;
+}
+/* .d-block{
+    width: 50%;
+} */
+img{
+    height: 500px;
+}
+.text-shadow{
+    text-shadow: 2px 2px 2px black;
+}
+h2{
+    text-shadow: 2px 2px 2px gray;
+}

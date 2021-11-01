@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Quản lý nhân viên</title>
+  </head>
+  <body>
+    <div id="myPage">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-1">
+        <a class="navbar-brand mx-4" style="width:60%"><h3>AL</h3></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link h5 mx-4" href="#gioi-thieu">Giới Thiệu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link h5 mx-4" href="#dich-vu">Dịch Vụ</a>
+            </li>            
+            <li class="nav-item h5 mx-4">
+              <a class="nav-link" href="#lien-he">Liên Hệ</a>
+            </li>
+          </ul>
+          
+          <!-- <button class="btn btn-light  mx-3" type="submit">Đăng Ký</button> -->
+          <a href="./pages/login.html"><button class="btn btn-light mr-4 font-weight-bold" type="submit">Login</button></a>
+        </div>
+      </nav> 
+      <div class="jumbotron bg-image" id="gioi-thieu">
+        <h1 class="display-1 font-weight-bold" style="margin-top: 64px;padding-left: 112px;">Xin chào!!!</h1>
+        <br>
+        <p class="font-weight-bold" style="padding-left: 112px;">Bảo toàn và tăng trưởng vốn, mở rộng kinh doanh; bảo vệ môi trường, bảo vệ sản <br>xuất,
+          mở rộng kinh doanh; bảo vệ môi trường.</p>
+        <br> <br>
+        <p class="font-weight-bold" style="padding-left: 112px;">Bảo vệ sản xuất, bảo đảm an ninh, an toàn và trật tự xã hội.</p>
+      </div>
+      <div class="p-4">
+        <div class="row">
+          <div class="col-sm-4">
+            <i class="fas fa-globe-americas px-5" style="font-size: 250px"></i>
+          </div>
+          <div class="col-sm-8 pr-5">
+            <h2 class="font-weight-bold">Giá Trị</h2><br>
+            <p><strong>Nhiệm vụ:</strong> Bảo toàn và tăng trưởng vốn, mở rộng kinh doanh; Bảo vệ môi trường, bảo vệ sản xuất, bảo đảm an ninh, an toàn và trật tự xã hội; Chấp hành pháp luật, thực hiện chế độ hạch toán thống kê thống nhất và thực hiện các nghĩa vụ đối với nhà nước.</p><br>
+            <p><strong>Mục tiêu:</strong> thể hiện khuynh hướng tồn tại và tăng trưởng, công ty có 3 mục tiêu cơ bản:<br> – Mục tiêu kinh tế: Thu lợi nhuận, đây là mục tiêu cần thiết hàng đầu của các doanh nghiệp hoạt động sản xuất mua bán.<br> – Mục đích xã hội: phân phối hàng hoá và dịch vụ cung cấp nhu cầu thế giới.<br>– Mục đích thoả mãn các nhu cầu cụ thể và thông dụng của người xung quanh tham gia hạot động trong doanh nghiệp.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="row">
+            <div class="col-3"></div>
+            <div class="carousel-inner col-6 rounded-lg my-4">
+              <h2 class="text-center py-2 mb-3 font-weight-bold">Nhân viên tiêu biểu</h2>
+              <div class="carousel-item active">
+                <img src="./images/person1.jpeg" class="d-block w-100 rounded-lg" alt="person1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="font-weight-bold text-shadow">Nguyễn Văn A</h3>
+                  <p class="font-weight-bold text-shadow">Chủ tịch hội đồng quản trị, người sáng lập công ty</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/person2.jpg" class="d-block w-100 rounded-lg" alt="person2">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="font-weight-bold text-shadow">Nguyễn Văn B</h3>
+                  <p class="font-weight-bold text-shadow">Giám đốc nhân sự, người đồng sáng lập công ty.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/person3.jpg" class="d-block w-100 rounded-lg" alt="person3">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="font-weight-bold text-shadow">Nguyễn Thị A</h3>
+                  <p class="font-weight-bold text-shadow">Trưởng phòng hành chính, nhân viên lâu năm.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3"></div>
+          </div>
+          <a class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <br>
+      <div id="dich-vu" class="container-fluid text-center mt-5">
+        <h2 class="font-weight-bold">Dịch Vụ</h2>
+        <br>
+        <div class="row" >
+          <div class="col-sm-4">
+            <i class="fas fa-power-off mb-2" style="font-size: 50px;"></i>
+            <h4>Năng Lượng</h4>
+          </div>
+          <div class="col-sm-4">
+            <i class="fas fa-archive mb-2" style="font-size: 50px;"></i>
+            <h4>Nghiên Cứu</h4>
+          </div>
+          <div class="col-sm-4">
+            <i class="fas fa-hands-helping mb-2" style="font-size: 50px;"></i>
+            <h4>Hợp Tác</h4>
+          </div>
+        </div>
+        <br><br><br>
+        <div class="row">
+          <div class="col-sm-4">
+            <i class="fas fa-chalkboard-teacher mb-2" style="font-size: 50px;"></i>
+            <h4>Chuyên Nghiệp</h4>
+          </div>
+          <div class="col-sm-4">
+            <i class="fas fa-head-side-virus mb-2" style="font-size: 50px;"></i>
+            <h4>Uy Tín</h4>
+          </div>
+          <div class="col-sm-4">
+            <i class="fas fa-tools mb-2" style="font-size: 50px;"></i>
+            <h4>Chất Lượng</h4>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div>
+        <h2 class="font-weight-bold text-center pb-4">Liên Hệ</h2>
+        <div id="lien-he" class="container-fluid px-5">
+          <div class="row">
+            <div class="col-sm-5">
+              <p>Liên hệ với chúng tôi và chúng tôi sẽ liên hệ lại với bạn trong vòng 24 giờ.</p>
+              <p><i class="fas fa-map-marker-alt"></i> Bắc Ninh, Việt Nam</p>
+              <p><i class="fas fa-phone-square-alt"></i> +84 1515151515</p>
+              <p><i class="fas fa-mail-bulk"></i> myemail@something.com</p>
+            </div>
+            <div class="col-sm-7 slideanim">
+              <div class="row">
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                </div>
+              </div>
+              <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+              <div class="row">
+                <div class="col-sm-12">
+                  <button class="btn btn-secondary float-right" type="submit">Gửi</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="my-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26081603.29442044!2d-95.677068!3d37.06250000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1633069353566!5m2!1svi!2s" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="text-center pb-4">
+        <h2><a href="#myPage"><i class="fas fa-chevron-up font-weight-bold text-black-50" ></i></a></h2>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> 
+  </body>
+</html>
